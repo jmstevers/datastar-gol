@@ -5,7 +5,7 @@ A multiplayer multi-colored game of life implementation using Bun, Zig, and Data
 > [!NOTE]  
 > I am using a modified version of Datastar that simplifies `MergeSignals` parsing and `OnSignalChange` for performance
 
-![](https://github.com/jmstevers/datastar-gol/showcase.gif)
+![](https://github.com/jmstevers/datastar-gol/blob/main/showcase.gif)
 
 ## Getting Started
 
