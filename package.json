@@ -1,0 +1,16 @@
+{
+    "name": "gol",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "zig build --release=fast; bun run --watch src/index.tsx",
+        "build": "zig build --release=fast; bun build src/index.tsx --minify --target bun --compile --outfile=server",
+        "prod": "bun run build && ./server"
+    },
+    "devDependencies": {
+        "@kitajs/html": "latest",
+        "@types/bun": "latest",
+        "typescript": "latest"
+    }
+}
