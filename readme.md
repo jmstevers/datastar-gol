@@ -20,9 +20,3 @@ bun dev
 ```
 
 Then open your browser and go to `localhost:8080`.
-
-## Roadmap
-
-- Add user interaction
-- Add custom camera zooming and wrapping scroll
-- Add a minimap
